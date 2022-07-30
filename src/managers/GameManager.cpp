@@ -127,7 +127,7 @@ namespace danMuGame
             DELEGATE()
             {
                 gameTestCount++;
-                this->timeCount = 10;
+                this->timeCount = 60;
                 GameGui::GetInstance()->summaryWidgetModule->setHidden(true);
 
                 std::string bufferName = getPrepareMusicBufferName();
